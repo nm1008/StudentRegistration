@@ -5,6 +5,7 @@ public class StudentEncapsulate {
 	private int year;
 	private char section;
 
+	// constructor
 	StudentEncapsulate(String first_name, String last_name, String course, int year, char section) {
 		this.first_name = first_name;
 		this.last_name = last_name;
@@ -13,7 +14,9 @@ public class StudentEncapsulate {
 		this.section = section;
 	}
 
+	// method to introduce student
 	void introduceSelf() {
+
 		System.out.println("First Name: " + first_name);
 		System.out.println("Last Name: " + last_name);
 		System.out.println("Course: " + course);
